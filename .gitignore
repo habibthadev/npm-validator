@@ -10,5 +10,8 @@ dist
 .idea
 coverage
 .nyc_output
-.agents
+.agents/
 skills-lock.json
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
