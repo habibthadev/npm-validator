@@ -5,7 +5,8 @@ import DropdownMenu from '@/components/ui/DropdownMenu.vue';
 const navItems = [
   { label: 'Home', to: '/' },
   { label: 'Validator', to: '/validator' },
-  { label: 'Algorithm', to: '/algorithm' }
+  { label: 'Algorithm', to: '/algorithm' },
+  { label: 'Bundle Size', to: '/bundle-size' }
 ];
 </script>
 
@@ -17,6 +18,7 @@ const navItems = [
         <RouterLink to="/" class="nav-link" exact-active-class="nav-link--active">Home</RouterLink>
         <RouterLink to="/validator" class="nav-link" active-class="nav-link--active">Validator</RouterLink>
         <RouterLink to="/algorithm" class="nav-link" active-class="nav-link--active">Algorithm</RouterLink>
+        <RouterLink to="/bundle-size" class="nav-link" active-class="nav-link--active">Bundle Size</RouterLink>
       </nav>
       <div class="mobile-nav">
         <DropdownMenu :items="navItems" />
