@@ -304,7 +304,7 @@ onUnmounted(() => {
 }
 
 .page-title {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   color: var(--label-primary);
   margin: 0 0 16px 0;
@@ -677,6 +677,10 @@ onUnmounted(() => {
 
   .section-title {
     font-size: 20px;
+  }
+
+  .page-title {
+    font-size: 36px;
   }
 
   .step-card {
