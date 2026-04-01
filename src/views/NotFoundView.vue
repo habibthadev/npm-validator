@@ -1,13 +1,9 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
-import AppHeader from '@/components/layout/AppHeader.vue';
-import AppFooter from '@/components/layout/AppFooter.vue';
 </script>
 
 <template>
   <div class="not-found-view">
-    <AppHeader />
-
     <main class="main-content">
       <div class="content-wrapper">
         <div class="error-icon">
@@ -29,8 +25,6 @@ import AppFooter from '@/components/layout/AppFooter.vue';
         </RouterLink>
       </div>
     </main>
-
-    <AppFooter />
   </div>
 </template>
 
