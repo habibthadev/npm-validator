@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
 import ValidatorView from '@/views/ValidatorView.vue';
 import LevenshteinView from '@/views/LevenshteinView.vue';
+import BundleSizeView from '@/views/BundleSizeView.vue';
 import NotFoundView from '@/views/NotFoundView.vue';
 
 const router = createRouter({
@@ -21,6 +22,11 @@ const router = createRouter({
       path: '/algorithm',
       name: 'algorithm',
       component: LevenshteinView
+    },
+    {
+      path: '/bundle-size',
+      name: 'bundle-size',
+      component: BundleSizeView
     },
     {
       path: '/:pathMatch(.*)*',
