@@ -248,7 +248,7 @@ onUnmounted(() => {
 }
 
 .hero-title {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 700;
   color: var(--label-primary);
   margin: 0 0 20px;
@@ -257,7 +257,7 @@ onUnmounted(() => {
 }
 
 .hero-subtitle {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--label-secondary);
   margin: 0 0 40px;
